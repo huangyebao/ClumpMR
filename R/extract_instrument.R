@@ -13,7 +13,7 @@ extract_instrument <- function(outcomes,
                                kb = 10000,
                                force_server = FALSE){
 
-  message("Dr_Hyb_n_n 感谢小伙伴们的使用!\n")
+  message("\nDr_Hyb_n_n 感谢小伙伴们的使用!\n")
 
   repeat {
     tryCatch({
