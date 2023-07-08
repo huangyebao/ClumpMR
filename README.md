@@ -19,6 +19,7 @@ outcomes <- c("ieu-a-299","ieu-a-300","ieu-a-302")
 exposure_dat <- extract_instrument(outcomes,p1 = 5e-08,clump = FALSE)
 
 #在线方式去除连锁不平衡
+
 exposure_dat <- clump_dat(exposure_dat,
                           clump_kb = 10000,
                           clump_r2 = 0.01,
@@ -27,6 +28,7 @@ exposure_dat <- clump_dat(exposure_dat,
                           pop = "EUR")
                           
 #或本地方式去除连锁不平衡
+
 exposure_dat <- clump_dat(exposure_dat,
                           clump_kb = 10000,
                           clump_r2 = 0.01,
