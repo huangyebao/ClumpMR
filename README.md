@@ -1,4 +1,4 @@
-# DrMR
+# ClumpMR
 
 最近由于TwosampleMR服务器过于拥挤，导致处理数据时经常连接失；
 
