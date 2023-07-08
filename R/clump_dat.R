@@ -21,7 +21,7 @@ clump_dat <- function(dat,
                       bfile = NULL,
                       plink_bin = NULL){
 
-  message("Dr_Hyb_n_n 感谢小伙伴们的使用!\n")
+  message("\nDr_Hyb_n_n 感谢小伙伴们的使用!\n")
 
   if (is.null(bfile)&is.null(plink_bin)) {
     ids <- unique(dat[["id.exposure"]])
